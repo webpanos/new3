@@ -5,7 +5,7 @@ $(document).on('pageinit', '#login', function(){
         if($('#username').val().length > 0 && $('#password').val().length > 0){
             // Send data to server through the Ajax call
             // action is functionality we want to call and outputJSON is our data
-                $.ajax({url: 'http://www.astypalaia.mobi/new3/work.php',
+                $.ajax({url: 'http://example.gajotres.net/json/check2.php',
                     data: {action : 'login', formData : $('#check-user').serialize()},
                     type: 'get',                  
                     async: 'true',
